@@ -1,0 +1,21 @@
+{% load static %}
+
+    {% block header %}
+    {% include 'partials/header.html' %}
+    {% endblock %}
+
+    {% block static-section %}
+    {% include 'web/static_section.html' %}
+    {% include 'web/collect.html' %}
+    {% include 'web/filter.html' %} 
+    {% include 'web/analyze.html' %}
+    {% include 'web/delivery.html' %}
+    {% include 'web/base.html' %}
+
+    {% block footer %}
+    {% include 'partials/footer.html' %}
+    {% endblock %}
+    
+    
+    {% endblock %}
+    
